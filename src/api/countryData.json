@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1438069596,
+    "interestingFact": "India is home to the Taj Mahal, one of the Seven Wonders of the World."
+  },
+  {
+    "id": 2,
+    "countryName": "United States",
+    "capital": "Washington, D.C.",
+    "population": 345426571,
+    "interestingFact": "The United States has 63 national parks and the world's largest economy."
+  },
+  {
+    "id": 3,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": 123294513,
+    "interestingFact": "Japan has more than 6,800 islands and is famous for its bullet trains."
+  },
+  {
+    "id": 4,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": 26713205,
+    "interestingFact": "Australia is home to the Great Barrier Reef, the largest coral reef system in the world."
+  },
+  {
+    "id": 5,
+    "countryName": "France",
+    "capital": "Paris",
+    "population": 68400000,
+    "interestingFact": "The Eiffel Tower was originally intended to stand for only 20 years."
+  },
+  {
+    "id": 6,
+    "countryName": "Germany",
+    "capital": "Berlin",
+    "population": 84552000,
+    "interestingFact": "Germany is famous for its castles, engineering, and the Autobahn with no general speed limit."
+  },
+  {
+    "id": 7,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": 211998573,
+    "interestingFact": "Brazil is home to the Amazon Rainforest, the largest tropical rainforest in the world."
+  },
+  {
+    "id": 8,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": 41528874,
+    "interestingFact": "Canada has the longest coastline of any country in the world."
+  },
+  {
+    "id": 9,
+    "countryName": "China",
+    "capital": "Beijing",
+    "population": 1408280000,
+    "interestingFact": "The Great Wall of China stretches over 21,000 kilometers."
+  },
+  {
+    "id": 10,
+    "countryName": "Italy",
+    "capital": "Rome",
+    "population": 58989000,
+    "interestingFact": "Italy is home to the world's smallest country, Vatican City."
+  },
+  {
+    "id": 11,
+    "countryName": "United Kingdom",
+    "capital": "London",
+    "population": 69138192,
+    "interestingFact": "Big Ben is actually the nickname of the Great Bell inside the famous clock tower."
+  },
+  {
+    "id": 12,
+    "countryName": "Russia",
+    "capital": "Moscow",
+    "population": 146150789,
+    "interestingFact": "Russia spans 11 time zones, more than any other country."
+  },
+  {
+    "id": 13,
+    "countryName": "South Korea",
+    "capital": "Seoul",
+    "population": 51712619,
+    "interestingFact": "South Korea has one of the fastest internet speeds in the world."
+  },
+  {
+    "id": 14,
+    "countryName": "Mexico",
+    "capital": "Mexico City",
+    "population": 130739927,
+    "interestingFact": "Mexico introduced chocolate, tomatoes, and avocados to the world."
+  },
+  {
+    "id": 15,
+    "countryName": "South Africa",
+    "capital": "Pretoria",
+    "population": 64007000,
+    "interestingFact": "South Africa has three official capital cities."
+  },
+  {
+    "id": 16,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": 118365995,
+    "interestingFact": "The Great Pyramid of Giza is the oldest of the Seven Wonders of the Ancient World."
+  },
+  {
+    "id": 17,
+    "countryName": "Spain",
+    "capital": "Madrid",
+    "population": 49077484,
+    "interestingFact": "Spain produces nearly half of the world's olive oil."
+  },
+  {
+    "id": 18,
+    "countryName": "Argentina",
+    "capital": "Buenos Aires",
+    "population": 47067441,
+    "interestingFact": "Argentina is the birthplace of the tango dance."
+  },
+  {
+    "id": 19,
+    "countryName": "New Zealand",
+    "capital": "Wellington",
+    "population": 5350000,
+    "interestingFact": "New Zealand was the first country to give women the right to vote."
+  },
+  {
+    "id": 20,
+    "countryName": "Norway",
+    "capital": "Oslo",
+    "population": 5600000,
+    "interestingFact": "Norway is famous for its breathtaking fjords and the Midnight Sun."
+  }
+]
