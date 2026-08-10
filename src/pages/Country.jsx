@@ -1,27 +1,40 @@
 import { useEffect, useState, useTransition } from "react";
 import { getCountryData } from "../api/postApi";
 import { Loader } from "../components/UI/Loader";
+import { NavLink } from "react-router-dom";
 
 export const Country = () => {
     const [isPending, startTransition] = useTransition();
     const [countries, setCountries] = useState([]);
     const [search, setSearch] = useState("");
+    const [filter, setFilter] = useState("All");
 
     useEffect(() => {
         startTransition(async () => {
             const res = await getCountryData();
             setCountries(res.data);
+            console.log(res.data);
         });
     }, []);
 
     if (isPending) return <Loader />;
 
-    const searchCountry = (country) => {
-        return country.name.toLowerCase().includes(search.toLowerCase());
-        //  country.capital?.toLowerCase().includes(search.toLowerCase())
-    };
+    // const searchCountry = (country) => {
+    //     return country.name.toLowerCase().includes(search.toLowerCase());
+    //     //  country.capital?.toLowerCase().includes(search.toLowerCase())
+    // };
 
-    const filteredCountries = countries.filter(searchCountry);
+    const filteredCountries = countries.filter((country) => {
+        const matchesSearch = country.name
+            .toLowerCase()
+            .includes(search.toLowerCase());
+
+        const matchesRegion =
+            filter === "All" || country.region === filter;
+
+        return matchesSearch && matchesRegion;
+    });
+
 
     return (
         <>
@@ -39,8 +52,10 @@ export const Country = () => {
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                 />
-                <select className="filter-select">
-                    <option value="all">All</option>
+                <select className="filter-select"
+                    value={filter}
+                    onChange={(e) => setFilter(e.target.value)}>
+                    <option value="All">All</option>
                     <option value="Africa">Africa</option>
                     <option value="Americas">Americas</option>
                     <option value="Asia">Asia</option>
@@ -53,7 +68,7 @@ export const Country = () => {
             <div className="country-container">
                 {filteredCountries.map((country) => (
                     <div className="country-card box-edge" key={country.alpha3Code}>
-                        <img
+                        <img className="flag-img flag"
                             src={country.flags.png}
                             alt={country.name}
                             onError={(e) => {
@@ -77,7 +92,9 @@ export const Country = () => {
                                 {country.population.toLocaleString("en-IN")}
                             </p>
 
-                            <button>Read More</button>
+                            <NavLink to={`/country/${country.alpha3Code}`}>
+                                <button btn btn-darken btn-inline bg-white-box>Read More</button>
+                            </NavLink>
                         </div>
                     </div>
                 ))}
