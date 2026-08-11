@@ -93,7 +93,7 @@ export const Country = () => {
                             </p>
 
                             <NavLink to={`/country/${country.alpha3Code}`}>
-                                <button btn btn-darken btn-inline bg-white-box>Read More</button>
+                                <button className="btn btn-darken btn-inline bg-white-box">Read More</button>
                             </NavLink>
                         </div>
                     </div>
