@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "MdPlace",
+        "title": "Linkedin",
+        "details": "https://www.linkedin.com/in/kanak-pandat-014792375/"
+    },
+    {
+        "icon": "IoCallSharp",
+        "title": "Github",
+        "details": ""
+    },
+    {
+        "icon": "TbMailPlus",
+        "title": "Leetcode",
+        "details": "https://leetcode.com/u/kanak_pandat/"
+    }
+]
