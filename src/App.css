@@ -87,6 +87,12 @@ button {
   place-items: center;
 }
 
+.grid-header {
+  display: grid;
+  margin: 0rem 3rem;
+  /* place-items: center; */
+}
+
 .grid-two-cols {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -116,7 +122,7 @@ header {
   grid-template-columns: 0.5fr 1fr;
   align-items: center;
   height: 10rem;
-  padding: 0 6rem;
+  padding: 0px;
 }
 
 nav ul {
@@ -145,13 +151,15 @@ nav ul {
   .ham-menu {
     display: flex;
     justify-content: flex-end;
+    color: #000;
   }
 
   .menu-mobile {
+    z-index: 100;
     position: absolute;
     top: 10rem;
     left: 0;
-    background-color: #0d1212;
+    background-color: #100f0f;
     width: 100%;
     box-shadow: rgba(255, 252, 252, 0.25) 0px 14px 28px;
   }
@@ -160,11 +168,11 @@ nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    
     & li:first-child {
       margin-top: 1.2rem;
     }
-
+    
     & li:last-child {
       margin-bottom: 1.2rem;
     }

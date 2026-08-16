@@ -13,7 +13,7 @@ export const FooterInfo = () => {
                         <div className="footer-contact">
                             <div className="icon"><TbBrandLinkedinFilled color="white" size={30}/></div>
                             <div className="footer-contact-text">
-                                <p><a href="https://www.linkedin.com/in/kanak-pandat-014792375/">Leetcode</a></p>
+                                <p><a href="https://www.linkedin.com/in/kanak-pandat-014792375/">Linkedin</a></p>
                             </div>
                         </div>
                         <div className="footer-contact">
